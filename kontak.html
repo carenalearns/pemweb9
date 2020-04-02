@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buku Tamu</title>
+	<style type="text/css">
+		h1 {font-family: calibri; text-align: center; background-color: #CCFFCC;}
+		body {background-color: #CCEEEE; padding-left: 300px; padding-right: 300px;}
+	</style>
+</head>
+<h1>BUKU TAMU</h1>
+<body>
+<form method="POST" action="simpan_kontak.php">
+<br>
+	Nama : <input type="text" name="nama">
+<br>
+<br>
+	Jenis Kelamin : <input type="radio" name="jk" value="Laki-laki"> Laki-laki <input type="radio" name="jk" value="Perempuan"> Perempuan
+<br>
+<br>
+	Email : <input type="text" name="email">
+<br>
+<br>
+	Alamat : <input type="text" name="alamat"></td>
+<br>
+<br>
+	Kota : </td>
+	<select name="kota">
+	<option value="Surabaya"> Surabaya </option>
+	<option value="Jakarta"> Jakarta </option>
+	<option value="Bandung"> Bandung </option>
+	<option value="Sidoarjo"> Sidoarjo </option>
+	</select>
+<br>
+<br>
+	Pesan : <textarea name ="pesan" cols="45" rows="5" align="center"></textarea>
+<br>
+<br>
+	<input type="submit" name="submit" value="Simpan">
+</form>
+</body>
+</html>
